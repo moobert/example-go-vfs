@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	mem, err := vfssimple.NewLocation("mem:///tmp/")
+	mem, err := vfssimple.NewLocation("file:///tmp/")
 	if err != nil {
 		panic(err)
 	}
